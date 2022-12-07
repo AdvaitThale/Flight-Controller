@@ -1,3 +1,23 @@
+<<<<<<< Updated upstream
+=======
+/*
+  Author: Advait Thale
+  *******************************************************************
+  *                        HC-05 Transmitter                        *    
+  *******************************************************************
+
+  The 4WD is controlled by self made handheld direction control console via dual-axis
+  potentiometer also having HC-05 and Arduino Nano as MCU. As D-A pot is moved the 
+  4WD moves. The implemented direction movements on Dual-axis pot. are:
+  -----------------------------------------------------------------------------------
+                                     Forward 
+                               
+                           Turn Left         Turn Right     
+                                            
+                                     Backward                                               
+  -----------------------------------------------------------------------------------
+*/
+>>>>>>> Stashed changes
 #include<SoftwareSerial.h>
 SoftwareSerial bt(2, 3);
 byte start = 0xE7; //start byte for x axis
